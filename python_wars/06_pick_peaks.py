@@ -32,7 +32,7 @@ change of sign at pos 2 to 3 (from -3 to 4), only from negative sign to positive
 
 import unittest
 
-class TestEncryption(unittest.TestCase):
+class TestPickPeaks(unittest.TestCase):
     def test_pick_peaks(self):
         self.assertEqual(pick_peaks([1,2,3,6,4,1,2,3,2,1]), {"pos":[3,7], "peaks":[6,3]})
         self.assertEqual(pick_peaks([3,2,3,6,4,1,2,3,2,1,2,3]), {"pos":[3,7], "peaks":[6,3]})
